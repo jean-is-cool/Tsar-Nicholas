@@ -1,0 +1,201 @@
+::selection {
+     background-color: red; 
+     color: white;
+}
+
+::-moz-selection {
+    background-color: red;
+    color: white;
+}
+
+span.subheading {
+    font-style: ;
+    font-weight: 800;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    display: inline-block;
+}
+
+h1 {
+    color: red;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+div.everything {
+    position: relative;
+    padding-left: 20px;
+    width: 700px;
+    max-width: 100%;
+    background-color: white;
+    top: 0;
+    margin-top: 0;
+    display: inline-block;
+    margin-left: 203px;
+    height: auto;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+}
+
+nav {
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #c3c3c3;
+    padding-left: 15px;
+    padding-right: 3px;
+    padding-top: 20px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+span.right-align {
+    text-align: right;
+    float: right;
+}
+
+img.icon {
+    height: 90px;
+    margin-top: 0;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+}
+
+img.icon:hover {
+    content: url('tsar_nicholas_rainbow_gif.gif');
+    display: inline-block;
+}
+
+a.top-bar {
+    margin: 10px;
+    display: inline-block;
+}
+
+img.top-bar-link {
+    height: 65px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+img.top-bar-link-home {
+    margin-left: 3px;
+}
+
+img.top-bar-link-home:hover, img.top-bar-link-home-selected {
+    content: url('tsar_nicholas_home_icon_selected.png');
+    display: inline-block;
+}
+
+img.top-bar-link-about {
+    margin-top: 2px;
+    height:70px;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+
+img.top-bar-link-about:hover, img.top-bar-link-about-selected {
+    content: url('tsar_nicholas_about_icon_selected.png');
+    display: inline-block;
+}
+
+a.in-text-link {
+    color: black;
+    text-decoration: underline;
+}
+
+a.in-text-link:hover {
+    color: red;
+}
+
+a.in-text-link:active {
+    color: #ffaec9;
+}
+
+img.top-bar-link-contact {
+    margin-top: 7px;
+    height: 70px;
+    display: inline-block;
+}
+
+img.top-bar-link-contact:hover, img.top-bar-link-contact-selected {
+    content: url('tsar_nicholas_contact_icon_selected.png');
+    display: inline-block;
+}
+
+img.top-bar-link-jean {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    height: 68px;
+}
+
+span.faq {
+    font-weight: 800;
+}
+
+img.top-bar-link-jean:hover, img.top-bar-link-jean-selected {
+    content: url('tsar_nicholas_jean_icon_selected.png');
+}
+
+img.top-bar-link-faqs {
+    height: 58px;
+    margin-left: 13px;
+    margin-top: 2px;
+}
+
+img.top-bar-link-faqs-selected, img.top-bar-link-faqs:hover {
+    content: url('tsar_nicholas_faqs_icon_selected.png');
+}
+
+div.inner-dropdown {
+    display: none;
+    padding-left: 30px;
+}
+
+div.show {
+    display: contents;
+}
+
+p.inner-dropdown {
+    padding-top: 0;
+    padding-left: 10px;
+}
+
+div.og {
+    margin-bottom: 10px;
+}
+
+img.distant-cousin {
+    width: 450px;
+    border-radius: 20px;
+}
+
+img.distant-cousin:hover {
+    content: url('tsar_nicholas_friend.gif');
+}
